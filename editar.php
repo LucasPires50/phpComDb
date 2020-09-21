@@ -31,7 +31,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--Lincando o bootstrat a pagina-->
-        <link href="style/estiloCSS.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style/estiloCSS.css" type="text/css">
+        <link rel="stylesheet" href="style/formCss.css" type="text/css">
 
 <?php if (isset($data ['salvar'])) { ?>
             <script>
@@ -44,7 +45,9 @@ and open the template in the editor.
         <div>
 
             <form action="editar.php?codigo=<?php echo $parametro['codigo']; ?>" method="post" class="letra">
-                <h1>Editar o Formulário</h1>
+                <nav class="menu">
+                    <h1>Editar o Formulário</h1>
+                </nav> 
 
                 <br>
 
@@ -69,7 +72,7 @@ and open the template in the editor.
                 <br/>
 
 
-                <button type="submit" class="btn btn-primary" id="salvar" name="salvar">Salvar</button>
+                <button type="submit" class="ButtonLink" id="salvar" name="salvar">Salvar</button>
 
             </form> 
 

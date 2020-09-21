@@ -26,7 +26,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--Lincando o bootstrat a pagina-->
-        <link href="style/estiloCSS.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style/estiloCSS.css" type="text/css">
+        <link rel="stylesheet" href="style/formCss.css" type="text/css">
 
         <?php if (isset($data ['salvar'])) { ?>
             <script>
@@ -39,33 +40,33 @@ and open the template in the editor.
         <div>
 
             <form action="adicionar.php" method="post" class="letra">
-                <nav >
+                <nav class="menu">
                     <h1>Preencha o Formulário</h1>
                 </nav>    
                 
                 <br>
 
-                <label for="nome">Nome:</label>
+                <label for="nome" class="label">Nome:</label>
                 <input type="text" class="input" required name="nome" id="nome" placeholder="Coloque seu nome"/>
                 <br/>
 
-                <label for="email">E-mail:</label>
+                <label for="email" class="label">E-mail:</label>
                 <input type="email" class="input" name="email" id="email" placeholder="Coloque seu email"/>
                 <br/>
 
-                <label for="login">Login:</label>
+                <label for="login" class="label">Login:</label>
                 <input type="text" class="input" required name="login" id="login" placeholder="Coloque seu login"/>
                 <br/>
 
-                <label for="senha">Senha:</label>
+                <label for="senha" class="label">Senha:</label>
                 <input type="password" class="input" required name="senha" id="senha" placeholder="senha" />
                 <br/>
 
-                <label for="senha-confirma">Confirme sua senha:</label>
+                <label for="senha-confirma" class="label">Confirme sua senha:</label>
                 <input type="password" class="input" name="senha-confirma" id="senha-confirma" placeholder="Repitir a senha"/>
                 <br/><br/>
 
-                <button type="submit" id="salvar" name="salvar" className="ButtonLink">Salvar</button>
+                <button type="submit" id="salvar" name="salvar" class="ButtonLink">Salvar</button>
 
             </form> 
 
