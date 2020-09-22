@@ -51,28 +51,28 @@ and open the template in the editor.
 
                 <br>
 
-                <label for="nome">Nome:</label>
-                <input type="text" class="input" required name="nome" id="nome" value="<?php echo $usuario ['nome'] ?>"/>
+                <label for="nome" class="label">Nome:</label>
+                <input type="text" class="input" required name="nome" id="nome" placeholder="Alterar nome" value="<?php echo $usuario ['nome'] ?>"/>
                 <br/>
 
-                <label for="email">E-mail:</label>
-                <input type="email" class="input" name="email" id="email" value="<?php echo $usuario ['email'] ?>" />
+                <label for="email" class="label">E-mail:</label>
+                <input type="email" class="input" name="email" id="email" placeholder="Alterar email" value="<?php echo $usuario ['email'] ?>" />
                 <br/>
 
-                <label for="login">Login:</label>
-                <input type="text" class="input" required name="login" id="login" value="<?php echo $usuario ['login'] ?>"/>
+                <label for="login" class="label">Login:</label>
+                <input type="text" class="input" required name="login" id="login" placeholder="Alterar login" value="<?php echo $usuario ['login'] ?>"/>
                 <br/>
 
-                <label for="senha">Senha:</label>
-                <input type="text" class="input"  name="senha" id="senha"/>
+                <label for="senha" class="label">Senha:</label>
+                <input type="text" class="input"  name="senha" id="senha" placeholder="Colocar a nova senha"/>
                 <br/>
 
-                <label for="senha-confirma">Confirme sua senha:</label>
-                <input type="password" class="input" name="senha-confirma" id="senha-confirma" />
+                <label for="senha-confirma" class="label">Confirme sua senha:</label>
+                <input type="password" class="input" name="senha-confirma" id="senha-confirma" placeholder="Repitir a senha" />
                 <br/>
 
 
-                <button type="submit" class="ButtonLink" id="salvar" name="salvar">Salvar</button>
+                <button type="submit" class="ButtonLinkPage" id="salvar" name="salvar">Salvar</button>
 
             </form> 
 

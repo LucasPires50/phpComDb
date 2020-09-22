@@ -64,9 +64,10 @@ and open the template in the editor.
 
                 <label for="senha-confirma" class="label">Confirme sua senha:</label>
                 <input type="password" class="input" name="senha-confirma" id="senha-confirma" placeholder="Repitir a senha"/>
-                <br/><br/>
 
-                <button type="submit" id="salvar" name="salvar" class="ButtonLink">Salvar</button>
+                <br/>
+
+                <button type="submit" id="salvar" name="salvar" class="ButtonLinkPage">Salvar</button>
 
             </form> 
 
